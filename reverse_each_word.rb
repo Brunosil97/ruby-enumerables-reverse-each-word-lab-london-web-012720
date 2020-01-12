@@ -8,3 +8,4 @@ def reverse_each_word(string)
   test_array.join("")
 end 
 reverse_each_word("Hello there, and how are you?")
+
