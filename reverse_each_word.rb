@@ -5,6 +5,6 @@ def reverse_each_word(string)
   array.collect do |string|
     test_array << array.reverse 
   end 
-  test_array("")
+  test_array.join("")
 end 
 reverse_each_word("Hello there, and how are you?")
